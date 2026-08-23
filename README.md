@@ -32,9 +32,9 @@ Buka `http://localhost:3000`.
 
 Versi statis prototype dipublikasikan otomatis dari branch `main` melalui GitHub Actions:
 
-`https://firgiawann.github.io/mentoring/`
+`https://firgiawan.id/mentoring/`
 
-Deployment GitHub Pages menggunakan base path `/mentoring`. Data pada versi ini tetap tersimpan lokal di browser dan belum memakai backend bersama.
+Deployment GitHub Pages menggunakan base path `/mentoring` dan custom domain `firgiawan.id`. Data pada versi ini tetap tersimpan lokal di browser dan belum memakai backend bersama.
 
 ## Rute demo
 
