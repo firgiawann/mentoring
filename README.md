@@ -28,6 +28,14 @@ pnpm dev
 
 Buka `http://localhost:3000`.
 
+## Situs GitHub Pages
+
+Versi statis prototype dipublikasikan otomatis dari branch `main` melalui GitHub Actions:
+
+`https://firgiawann.github.io/mentoring/`
+
+Deployment GitHub Pages menggunakan base path `/mentoring`. Data pada versi ini tetap tersimpan lokal di browser dan belum memakai backend bersama.
+
 ## Rute demo
 
 - `/` — landing page publik

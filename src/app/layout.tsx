@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 
+import { createSitePath } from "@/config/site-path";
 import { PrototypeProvider } from "@/features/prototype/prototype-store";
 
 import "./globals.css";
@@ -11,10 +12,10 @@ export const metadata: Metadata = {
     template: "%s · PTIK D1 2026",
   },
   description: "Ruang belajar dan pelacak kegiatan mentoring PTIK D1 2026.",
-  manifest: "/manifest.webmanifest",
+  manifest: createSitePath("/manifest.webmanifest"),
   icons: {
-    icon: "/icons/icon-192.svg",
-    apple: "/icons/icon-192.svg",
+    icon: createSitePath("/icons/icon-192.svg"),
+    apple: createSitePath("/icons/icon-192.svg"),
   },
 };
 
